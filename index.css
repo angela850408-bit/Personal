@@ -285,7 +285,13 @@ text-align: left;
 
 
 @media (max-width: 768px) {
-    .portfolio-item {flex: 0 1 100%; }
+    .portfolio-item {
+        flex: 0 1 100%; }
+    #About.container{
+        flex-direction:column;}
+    .main-pic{
+        width:100%;}
+        
 }
 
 
